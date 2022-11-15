@@ -1,0 +1,30 @@
+---
+title: "Week04_homework"
+author: "Hilman Prakoso"
+date: "2022-11-15"
+output: html_document
+---
+
+# 1. Install countrycode package
+```{r}
+install.packages("countrycode")
+```
+# 2. Call The Library
+```{r}
+library(tidyverse)
+library(here)
+library(sf)
+library(janitor)
+library(tmap)
+library(tmaptools)
+library(plotly)
+library(countrycode)
+```
+# 3. Read both csv and shp file to R
+```{r}
+HDI <- read_csv("HDR21-22_Composite_indices_complete_time_series.csv", encoding
+                )
+```
+
+
+
